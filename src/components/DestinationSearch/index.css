@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.main-container {
+  min-height: 100vh;
+}
+.container {
+  width: 80%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2em;
+  text-align: center;
+}
+h1 {
+  justify-self: flex-start;
+}
+.input-search {
+  outline: none;
+  padding: 0.5em;
+  min-width: 200px;
+  border-radius: 5px;
+}
+.dest-container {
+  padding-block: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+.search-box {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  max-width: 400px;
+}
+.icon {
+  width: 30px;
+}
